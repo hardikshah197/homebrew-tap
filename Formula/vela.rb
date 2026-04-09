@@ -1,18 +1,18 @@
 class Vela < Formula
   desc "Workspace manager UI for AI coding agents (Claude Code, Codex, Ralph Loop)"
   homepage "https://github.com/hardikshah197/Vela"
-  version "1.0.0"
+  version "1.0.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/hardikshah197/Vela/releases/download/v1.0.0/vela-1.0.0-darwin-arm64.tar.gz"
-      sha256 "6fbf186bc41373c5f888795ed85957022f5d77f8fcbf166857fd9e596d1adf71"
+      url "https://github.com/hardikshah197/Vela/releases/download/v1.0.1/vela-1.0.1-darwin-arm64.tar.gz"
+      sha256 "218d036a5d69e32a54b566e032f287e1e00029256f92f7f091921f688ae7133d"
     end
 
     on_intel do
-      url "https://github.com/hardikshah197/Vela/releases/download/v1.0.0/vela-1.0.0-darwin-amd64.tar.gz"
-      sha256 "91479d5a9ccb721dbafa75e230147fc3f7e445a1f3c4fe6a1d3c1be64641579f"
+      url "https://github.com/hardikshah197/Vela/releases/download/v1.0.1/vela-1.0.1-darwin-amd64.tar.gz"
+      sha256 "fa3395cb7908696e4a1e21a5e731d7c656b56517c6e1fa49dcfb3630a302d8c9"
     end
   end
 
